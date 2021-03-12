@@ -1,7 +1,9 @@
+africastalking==1.2.3
 beautifulsoup4==4.9.3
 certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
+contextlib2==0.6.0.post1
 cssselect==1.1.0
 feedfinder2==0.0.4
 feedparser==6.0.2
@@ -14,10 +16,12 @@ newspaper3k==0.2.8
 nltk==3.5
 Pillow==8.1.2
 python-dateutil==2.8.1
+python-dotenv==0.15.0
 PyYAML==5.4.1
 regex==2020.11.13
 requests==2.25.1
 requests-file==1.5.1
+schema==0.7.4
 sgmllib3k==1.0.0
 six==1.15.0
 soupsieve==2.2

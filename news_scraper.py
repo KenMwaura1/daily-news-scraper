@@ -41,7 +41,11 @@ print(message)
 
 
 def send_message(news: list, number: int):
-    sms.send(news, [number])
+    try:
+        response = sms.send(news, [number])
+        print(response)
+    except Exception as e:
+        print(f" Houston we have a problem: {e}")
 
 
 send_message(str(message), mobile_number)

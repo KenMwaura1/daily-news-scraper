@@ -5,20 +5,23 @@ import africastalking as at
 from dotenv import load_dotenv
 
 load_dotenv()
-
+# get the environment values from the .env file
 api_key = os.getenv('api_key')
 username = os.getenv('username')
 mobile_number = os.getenv('mobile_number')
-
+# Initialize the Africas talking client using username and api api_key
 at.initialize(username, api_key)
+# create a variable to reference the SMS client
 sms = at.SMS
 
+# create variables to hold urls to be scraped
 business_daily = "https://www.businessdailyafrica.com/"
 standard_daily = "https://www.standardmedia.co.ke/"
-
+# create an empty list to hold the headlines and urls
 message = []
 
 
+# Create a function to scrape the top 3 headlines from news sources
 def top_news(url):
     # get top articles on standard standard
     news_source = newspaper.build(url, memoize_articles=False)
@@ -37,9 +40,8 @@ def top_news(url):
 top_news(business_daily)
 top_news(standard_daily)
 
-print(message)
 
-
+# Create a function to send a message containing the scraped news headlines.
 def send_message(news: list, number: int):
     try:
         response = sms.send(news, [number])
@@ -48,4 +50,5 @@ def send_message(news: list, number: int):
         print(f" Houston we have a problem: {e}")
 
 
+# Call the function passing the message  and mobile_number as a arguments
 send_message(str(message), mobile_number)

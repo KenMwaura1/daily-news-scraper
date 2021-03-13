@@ -12,7 +12,7 @@ An env example is provided for reference.
 ## Step 1
 Clone this repo to a suitable location.
 
-    `git clone https://github.com/KenMwaura1/daily-news-scraper`
+`git clone https://github.com/KenMwaura1/daily-news-scraper`
 
 OR 
 
@@ -20,17 +20,17 @@ Download the zip and extract it.
 ## Step 2 
 Change into the directory.
 
-    ` cd daily-news-scraper`
+` cd daily-news-scraper`
 
 ## Step 3
 Create a virtual environment (venv) to hold all of the required dependecies.Here we use 
 the built-in venv module.
   
-    `python -m venv env`
+`python -m venv env`
 
 Activate the virtual environment
 
-    ` source env/bin/activate`
+` source env/bin/activate`
 
 Alternatively if you are using [pyenv](https://github.com/pyenv/pyenv)
        
@@ -41,19 +41,19 @@ pyenv activate daily-news-scraper
 ## Step 4 
 Install the required dependencies:
 
-    `pip Install -r requirements`
+`pip install -r requirements `  
 ## Step 5
 Create `.env ` file and add your credentials as specified.
 
-    `touch .env `
+`touch .env `
 
 OR
  
 Copy the provided  example and edit as required:
 
-    ` cp .env-example env`
+` cp .env-example env`
 
 ## Step 6 
 Run the script 
 
-    ` python news_scraper.py`
+`  python news_scraper.py `

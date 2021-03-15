@@ -2,13 +2,12 @@ import os
 import time
 import newspaper
 import africastalking as at
-from dotenv import load_dotenv
 
-load_dotenv()
+
 # get the environment values from the .env file
-api_key = os.getenv('api_key')
-username = os.getenv('username')
-mobile_number = os.getenv('mobile_number')
+api_key = os.environ.get('api_key')
+username = os.environ.get('username')
+mobile_number = os.environ.get('mobile_number')
 # Initialize the Africas talking client using username and api api_key
 at.initialize(username, api_key)
 # create a variable to reference the SMS client

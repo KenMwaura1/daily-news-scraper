@@ -1,5 +1,4 @@
 import os
-import time
 import newspaper
 import africastalking as at
 from dotenv import load_dotenv

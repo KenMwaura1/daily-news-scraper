@@ -23,7 +23,7 @@ message = []
 # Create a function to scrape the top 3 headlines from news sources
 def top_news(url):
     # get top articles on standard standard
-    news_source = newspaper.build(url, memoize_articles=False)
+    news_source = newspaper.build(url,)
     top_articles = []
     for index in range(3):
         article = news_source.articles[index]

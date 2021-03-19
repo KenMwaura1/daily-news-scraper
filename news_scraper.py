@@ -15,7 +15,7 @@ at.initialize(username, api_key)
 sms = at.SMS
 # Get the token(s) and create a shortener variable
 token = os.getenv('bitly_token')
-print(token)
+# create a variable to takes the token and returns a shortener object
 shortener = bts.Shortener(tokens=[token], max_cache_size=256)
 
 # create variables to hold urls to be scraped
@@ -24,7 +24,6 @@ standard_daily = "https://www.standardmedia.co.ke/"
 # create an empty list to hold the headlines and urls
 message = []
 
-long_urls = []
 # Create a function to scrape the top 3 headlines from news sources
 def top_news(url):
     # get top articles on standard standard
@@ -37,13 +36,14 @@ def top_news(url):
         article.parse()
         top_articles.append(article)
     for a in top_articles:
-        print(a.title, a.url)
+        # print(a.title, a.url)
         long_urls.append(a.url)
+        # Shorten the long article urls using bitly shortener lib
         short_url = shortener.shorten_urls([a.url])
         message.append(a.title)
+        # Short url is a list and we need to unpack it
         for url in short_url:
             message.append(url)
-        # message.append(a.url)
 
 
 top_news(business_daily)
@@ -51,7 +51,7 @@ top_news(standard_daily)
 
 
 print(message)
-
+print(shortener.usage())
 # Create a function to send a message containing the scraped news headlines.
 def send_message(news: list, number: int):
     try:

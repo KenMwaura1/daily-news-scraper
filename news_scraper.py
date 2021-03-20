@@ -3,8 +3,8 @@ import newspaper
 import africastalking as at
 import bitlyshortener as bts
 from dotenv import load_dotenv
-
 load_dotenv()
+
 # get the environment values from the .env file
 api_key = os.getenv('api_key')
 username = os.getenv('username')
@@ -28,7 +28,7 @@ message = []
 # Create a function to scrape the top 3 headlines from news sources
 def top_news(url):
     # get top articles on standard standard
-    news_source = newspaper.build(url, memoize_articles=False)
+    news_source = newspaper.build(url)
     top_articles = []
 
     for index in range(3):

@@ -3,6 +3,7 @@ import newspaper
 import africastalking as at
 import bitlyshortener as bts
 from dotenv import load_dotenv
+
 load_dotenv()
 
 # get the environment values from the .env file
@@ -62,5 +63,6 @@ def send_message(news: list, number: int):
     except Exception as e:
         print(f" Houston we have a problem: {e}")
 
+
 # Call the function passing the message  and mobile_number as a arguments
-# send_message(str(message), mobile_number)
+send_message(str(message), mobile_number)

@@ -37,7 +37,6 @@ def top_news(url):
         article.parse()
         top_articles.append(article)
     for a in top_articles:
-        # print(a.title, a.url)
         # Shorten the long article urls using bitly shortener lib
         short_url = shortener.shorten_urls([a.url])
         message.append(a.title)

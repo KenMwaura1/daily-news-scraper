@@ -10,7 +10,7 @@ cssselect==1.1.0
 feedfinder2==0.0.4
 feedparser==6.0.2
 filelock==3.0.12
-idna==2.10
+idna==3.4
 jieba3k==0.35.1
 joblib==1.0.1
 lxml==4.9.1

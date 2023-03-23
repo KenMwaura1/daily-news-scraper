@@ -3,4 +3,4 @@
 
 /.env
 
-/venv (if you use virtualenv)
+venv (if you use virtualenv)

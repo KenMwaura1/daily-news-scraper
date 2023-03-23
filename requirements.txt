@@ -2,7 +2,7 @@ africastalking==1.2.3
 beautifulsoup4==4.9.3
 bitlyshortener==0.6.4
 cachetools==4.2.1
-certifi==2020.12.5
+certifi==2022.12.7
 chardet==4.0.0
 click==7.1.2
 contextlib2==0.6.0.post1

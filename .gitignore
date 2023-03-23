@@ -2,3 +2,5 @@
 .vscode
 
 /.env
+
+/venv (if you use virtualenv)

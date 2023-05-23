@@ -21,7 +21,7 @@ python-dateutil==2.8.1
 python-dotenv==0.15.0
 PyYAML==5.4.1
 regex==2020.11.13
-requests==2.25.1
+requests==2.31.0
 requests-file==1.5.1
 schema==0.7.4
 sgmllib3k==1.0.0

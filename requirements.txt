@@ -7,7 +7,7 @@ chardet==4.0.0
 charset-normalizer==3.2.0
 click==7.1.2
 contextlib2==0.6.0.post1
-cssselect==1.1.0
+cssselect==1.2.0
 feedfinder2==0.0.4
 feedparser==6.0.2
 filelock==3.12.2

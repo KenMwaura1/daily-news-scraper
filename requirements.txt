@@ -1,5 +1,5 @@
 africastalking==1.2.3
-beautifulsoup4==4.12.2
+beautifulsoup4==4.9.3
 bitlyshortener==0.6.4
 cachetools==5.3.1
 certifi==2020.12.5
@@ -16,12 +16,12 @@ jieba3k==0.35.1
 joblib==1.0.1
 lxml==4.9.1
 newspaper3k==0.2.8
-nltk==3.5
+nltk==3.8.1
 Pillow==9.3.0
 python-dateutil==2.8.2
 python-dotenv==0.15.0
 PyYAML==5.4.1
-regex==2020.11.13
+regex==2023.6.3
 requests==2.31.0
 requests-file==1.5.1
 schema==0.7.4
@@ -31,4 +31,4 @@ soupsieve==2.2
 tinysegmenter==0.3
 tldextract==3.1.0
 tqdm==4.59.0
-urllib3==2.0.3
+urllib3==1.26.3

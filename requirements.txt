@@ -1,15 +1,16 @@
 africastalking==1.2.3
 beautifulsoup4==4.9.3
 bitlyshortener==0.6.4
-cachetools==4.2.1
+cachetools==5.3.1
 certifi==2020.12.5
 chardet==4.0.0
+charset-normalizer==3.2.0
 click==7.1.2
 contextlib2==0.6.0.post1
 cssselect==1.1.0
 feedfinder2==0.0.4
 feedparser==6.0.2
-filelock==3.0.12
+filelock==3.12.2
 idna==2.10
 jieba3k==0.35.1
 joblib==1.0.1
@@ -21,7 +22,7 @@ python-dateutil==2.8.1
 python-dotenv==0.15.0
 PyYAML==5.4.1
 regex==2020.11.13
-requests==2.25.1
+requests==2.31.0
 requests-file==1.5.1
 schema==0.7.4
 sgmllib3k==1.0.0

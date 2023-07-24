@@ -26,7 +26,7 @@ requests==2.31.0
 requests-file==1.5.1
 schema==0.7.5
 sgmllib3k==1.0.0
-six==1.15.0
+six==1.16.0
 soupsieve==2.2
 tinysegmenter==0.3
 tldextract==3.4.4

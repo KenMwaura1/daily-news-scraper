@@ -29,7 +29,7 @@ ruff==0.0.286
 schema==0.7.5
 sgmllib3k==1.0.0
 six==1.16.0
-soupsieve==2.4.1
+soupsieve==2.5
 tinysegmenter==0.3
 tldextract==3.5.0
 tqdm==4.66.1

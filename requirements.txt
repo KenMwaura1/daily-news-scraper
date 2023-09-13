@@ -25,7 +25,7 @@ PyYAML==6.0.1
 regex==2023.8.8
 requests==2.31.0
 requests-file==1.5.1
-ruff==0.0.287
+ruff==0.0.289
 schema==0.7.5
 sgmllib3k==1.0.0
 six==1.16.0

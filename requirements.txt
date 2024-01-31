@@ -24,7 +24,7 @@ python-dotenv==1.0.1
 PyYAML==6.0.1
 regex==2023.12.25
 requests==2.31.0
-requests-file==1.5.1
+requests-file==2.0.0
 ruff==0.1.14
 schema==0.7.5
 sgmllib3k==1.0.0

@@ -20,8 +20,9 @@ token = os.getenv('bitly_token')
 shortener = bts.Shortener(tokens=[token], max_cache_size=256)
 
 # create variables to hold urls to be scraped
-business_daily = "https://www.businessdailyafrica.com/"
+business_daily = "https://www.businessdailyafrica.com/bd/corporate/technology"
 standard_daily = "https://www.standardmedia.co.ke/"
+nation_daily = "https://www.nation.co.ke/"
 # create an empty list to hold the headlines and urls
 message = []
 
@@ -36,18 +37,37 @@ def top_news(url):
         article = news_source.articles[index]
         article.download()
         article.parse()
+        article.nlp()
         top_articles.append(article)
+        #print(article.title)
     for a in top_articles:
         # Shorten the long article urls using bitly shortener lib
         short_url = shortener.shorten_urls([a.url])
         message.append(a.title)
         # Short url is a list and we need to unpack it
-        for url in short_url:
-            message.append(url)
+        # for url in short_url:
+        #     message.append(url)
+    return message
+
+top_news("https://cnn.com/")
+#
+# 
+
+
+
+
+
+
+
+
+
+
+
 
 
 top_news(business_daily)
-top_news(standard_daily)
+#top_news(standard_daily)
+# top_news(nation_daily)
 
 print(message)
 # Returns a the current usage of the url shortening quota

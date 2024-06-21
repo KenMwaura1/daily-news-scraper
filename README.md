@@ -38,6 +38,22 @@ Activate the virtual environment
 
 `source env/bin/activate`
 
+Create a virtual environment
+
+   `python3 -m venv venv`
+
+   For zsh users
+
+   `source venv/bin/activate.zsh`
+
+   For bash users
+
+   `source venv/bin/activate.bash`
+
+   For fish users
+
+   `source venv/bin/activate.fish`
+
 Alternatively if you are using [pyenv](https://github.com/pyenv/pyenv)
 
 ```shell

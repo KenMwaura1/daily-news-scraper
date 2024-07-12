@@ -1,4 +1,4 @@
-africastalking==1.2.7
+africastalking==1.2.8
 beautifulsoup4==4.12.3
 bitlyshortener==0.6.4
 cachetools==5.3.3

@@ -16,7 +16,7 @@ jieba3k==0.35.1
 joblib==1.4.2
 lxml==5.2.2
 newspaper3k==0.2.8
-nltk==3.8.1
+nltk==3.8.2
 pillow==10.4.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1

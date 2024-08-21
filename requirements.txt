@@ -1,7 +1,7 @@
 africastalking==1.2.8
 beautifulsoup4==4.12.3
 bitlyshortener==0.6.4
-cachetools==5.4.0
+cachetools==5.5.0
 certifi==2024.7.4
 chardet==5.2.0
 charset-normalizer==3.3.2
@@ -26,9 +26,9 @@ requests==2.32.3
 requests-file==2.1.0
 schema==0.7.7
 sgmllib3k==1.0.0
-six==1.15.0
-soupsieve==2.2
-tinysegmenter==0.4
-tldextract==3.4.4
-tqdm==4.59.0
-urllib3==1.26.3
+six==1.16.0
+soupsieve==2.6
+tinysegmenter==0.3
+tldextract==5.1.2
+tqdm==4.66.5
+urllib3==2.2.2

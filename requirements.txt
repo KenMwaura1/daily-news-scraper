@@ -28,7 +28,7 @@ schema==0.7.7
 sgmllib3k==1.0.0
 six==1.16.0
 soupsieve==2.6
-tinysegmenter==0.3
+tinysegmenter==0.4
 tldextract==5.1.2
 tqdm==4.66.5
 urllib3==2.2.2

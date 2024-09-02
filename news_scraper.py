@@ -37,9 +37,9 @@ def top_news(url):
         article = news_source.articles[index]
         article.download()
         article.parse()
-        article.nlp()
+        article.keywords()
         top_articles.append(article)
-        #print(article.title)
+        print(article.title)
     for a in top_articles:
         # Shorten the long article urls using bitly shortener lib
         short_url = shortener.shorten_urls([a.url])

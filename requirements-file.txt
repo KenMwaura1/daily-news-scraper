@@ -32,7 +32,6 @@ schema
 sgmllib3k
 six
 soupsieve
-tinysegmenter
 tldextract
 tqdm
 typing_extensions

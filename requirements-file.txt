@@ -15,11 +15,15 @@ idna
 jieba3k
 joblib
 lxml
-newspaper3k
+lxml_html_clean
+newspaper4k
 nltk
-Pillow
+numpy
+pandas
+pillow
 python-dateutil
 python-dotenv
+pytz
 PyYAML
 regex
 requests
@@ -28,7 +32,8 @@ schema
 sgmllib3k
 six
 soupsieve
-tinysegmenter
 tldextract
 tqdm
+typing_extensions
+tzdata
 urllib3

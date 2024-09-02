@@ -50,20 +50,6 @@ def top_news(url):
     return message
 
 top_news("https://cnn.com/")
-#
-# 
-
-
-
-
-
-
-
-
-
-
-
-
 
 top_news(business_daily)
 #top_news(standard_daily)

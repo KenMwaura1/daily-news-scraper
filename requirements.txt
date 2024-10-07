@@ -19,7 +19,7 @@ lxml_html_clean==0.2.2
 newspaper4k==0.9.3.1
 nltk==3.9.1
 numpy==2.1.0
-pandas==2.2.2
+pandas==2.2.3
 pillow==10.4.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1

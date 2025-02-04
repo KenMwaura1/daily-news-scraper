@@ -1,5 +1,5 @@
 africastalking==1.2.9
-beautifulsoup4==4.12.3
+beautifulsoup4==4.13.1
 bitlyshortener==0.6.4
 cachetools==5.5.1
 certifi==2025.1.31

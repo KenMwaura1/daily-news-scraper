@@ -15,7 +15,7 @@ idna==3.10
 jieba3k==0.35.1
 joblib==1.4.2
 lxml==5.3.1
-lxml_html_clean==0.4.1
+lxml_html_clean==0.4.2
 newspaper4k==0.9.3.1
 nltk==3.9.1
 numpy==2.1.0

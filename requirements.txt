@@ -13,7 +13,7 @@ feedparser==6.0.11
 filelock==3.18.0
 idna==3.10
 jieba3k==0.35.1
-joblib==1.4.2
+joblib==1.5.0
 lxml==5.4.0
 lxml_html_clean==0.4.2
 newspaper4k==0.9.3.1

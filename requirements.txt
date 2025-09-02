@@ -25,7 +25,7 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pytz==2025.2
 PyYAML==6.0.2
-regex==2024.11.6
+regex==2025.9.1
 requests==2.32.4
 requests-file==2.1.0
 schema==0.7.7

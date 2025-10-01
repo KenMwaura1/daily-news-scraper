@@ -1,4 +1,4 @@
-africastalking==1.2.9
+africastalking==2.0.1
 beautifulsoup4==4.13.4
 bitlyshortener==0.6.4
 certifi==2025.8.3

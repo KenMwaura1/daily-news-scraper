@@ -22,7 +22,7 @@ numpy==2.1.0
 pandas==2.3.3
 pillow==11.3.0
 python-dateutil==2.9.0.post0
-python-dotenv==1.1.1
+python-dotenv==1.2.1
 pytz==2025.2
 PyYAML==6.0.3
 regex==2025.10.23

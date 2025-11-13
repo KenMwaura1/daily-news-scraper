@@ -1,7 +1,7 @@
 africastalking==2.0.1
 beautifulsoup4==4.14.2
 bitlyshortener==0.6.4
-certifi==2025.10.5
+certifi==2025.11.12
 cachetools==6.2.1
 chardet==5.2.0
 charset-normalizer==3.4.4

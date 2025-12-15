@@ -2,7 +2,7 @@ africastalking==2.0.1
 beautifulsoup4==4.14.3
 bitlyshortener==0.6.4
 certifi==2025.11.12
-cachetools==6.2.2
+cachetools==6.2.3
 chardet==5.2.0
 charset-normalizer==3.4.4
 click==8.1.8
@@ -35,5 +35,5 @@ soupsieve==2.8
 tldextract==5.3.0
 tqdm==4.67.1
 typing_extensions==4.15.0
-tzdata==2025.2
-urllib3==2.6.0
+tzdata==2025.3
+urllib3==2.5.0

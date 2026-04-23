@@ -16,7 +16,7 @@ jieba3k==0.35.1
 joblib==1.5.3
 lxml==6.1.0
 lxml_html_clean==0.4.4
-newspaper4k==0.9.3.1
+newspaper4k==0.9.5
 nltk==3.9.2
 numpy==2.1.0
 pandas==2.3.3

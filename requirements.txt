@@ -17,7 +17,7 @@ joblib==1.5.3
 lxml==6.1.0
 lxml_html_clean==0.4.4
 newspaper4k==0.9.3.1
-nltk==3.9.2
+nltk==3.9.4
 numpy==2.1.0
 pandas==2.3.3
 pillow==11.3.0
